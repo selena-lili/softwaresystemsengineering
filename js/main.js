@@ -196,11 +196,11 @@
 		},2250);
             });
         }
-        else if(window.matchMedia(mqsmall).matches) {
+        /*else if(window.matchMedia(mqsmall).matches) {
             $('#background').each(function () {
                 $(this).addClass('background3');
             });
-        }
+        }*/
 	};
 	// Burger Menu
 	var burgerMenu = function() {
