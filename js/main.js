@@ -193,7 +193,7 @@
     		//$(this).removeClass("background2");		
     		//$(this).addClass("background1");
 			$('#background').removeClass('background2').addClass('background1');
-		},2200);
+		},2250);
             });
         }
         else if(window.matchMedia(mqsmall).matches) {
@@ -202,7 +202,6 @@
             });
         }
 	};
-	//Add mobile feature
 	// Burger Menu
 	var burgerMenu = function() {
 
