@@ -23,21 +23,21 @@ body.group-6-overflow {
 
 ::-webkit-selection {
   color: #fff;
-  background: #f9ad81;
+  background: #5b83eb;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #f9ad81;
+  background: #5b83eb;
 }
 
 ::selection {
   color: #fff;
-  background: #f9ad81;
+  background: #5b83eb;
 }
 
 a {
-  color: #f9ad81;
+  color: #5b83eb;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -116,9 +116,9 @@ p {
 }
 
 .btn-primary {
-  background: #f9ad81;
+  background: #5b83eb;
   color: #fff;
-  border: 2px solid #f9ad81;
+  border: 2px solid #5b83eb;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #f89d69 !important;
@@ -126,11 +126,11 @@ p {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #f9ad81;
-  border: 2px solid #f9ad81;
+  color: #5b83eb;
+  border: 2px solid #5b83eb;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #f9ad81;
+  background: #5b83eb;
   color: #fff;
 }
 
@@ -534,17 +534,29 @@ p {
   margin-bottom: 30px;
 }
 
-#group-6-section-3 {
+#group-6-section-3{
+  background: #444853;
+}
+#group-6-section-5 {
   background: #444853;
 }
 #group-6-section-3 h2 {
   color: #fff;
 }
+#group-6-section-5 h2 {
+  color: #fff;
+}
 #group-6-section-3 .group-6-text {
+  padding-left: 4em;
+}
+#group-6-section-5 .group-6-text {
   padding-left: 4em;
 }
 @media screen and (max-width: 992px) {
   #group-6-section-3 .group-6-text {
+    padding: 0 0 20px 0;
+  }
+  #group-6-section-5 .group-6-text {
     padding: 0 0 20px 0;
   }
 }
@@ -585,7 +597,7 @@ p {
   -moz-osx-font-smoothing: grayscale;
   content: "\e114";
   font-size: 50px;
-  color: #f9ad81;
+  color: #5b83eb;
 }
 @media screen and (max-width: 992px) {
   #group-6-section-3 .group-6-text.with-plus:after {
@@ -677,7 +689,7 @@ p {
   position: relative;
   background: transparent;
   box-shadow: none;
-  border: 2px solid #f9ad81;
+  border: 2px solid #5b83eb;
 }
 
 #group-6-footer {
@@ -802,7 +814,7 @@ p {
   margin-left: -10px;
   height: 2px;
   left: 50%;
-  background: #f9ad81;
+  background: #5b83eb;
 }
 .img-grid:hover > a {
   opacity: 1;
@@ -844,7 +856,7 @@ p {
   text-decoration: none;
 }
 .group-6-nav-toggle.active i::before, .group-6-nav-toggle.active i::after {
-  background: #f9ad81;
+  background: #5b83eb;
 }
 .group-6-nav-toggle:hover, .group-6-nav-toggle:focus, .group-6-nav-toggle:active {
   outline: none;
