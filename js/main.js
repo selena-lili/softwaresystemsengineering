@@ -198,10 +198,11 @@
         }
         else if(window.matchMedia(mqsmall).matches) {
             $('#background').each(function () {
-                $(this).addClass('background1');
+                $(this).addClass('background3');
             });
         }
 	};
+	//Add mobile feature
 	// Burger Menu
 	var burgerMenu = function() {
 
