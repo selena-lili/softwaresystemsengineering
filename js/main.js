@@ -193,7 +193,7 @@
     		//$(this).removeClass("background2");		
     		//$(this).addClass("background1");
 			$('#background').removeClass('background2').addClass('background1');
-		},2250);
+		},2200);
             });
         }
         else if(window.matchMedia(mqsmall).matches) {
