@@ -172,7 +172,7 @@
 			
 	};
 
-	var stopAnime = function(){
+/*	var stopAnime = function(){
 		$('#background').css('background-color','black');
 		$('#background').addClass('background2');
 		setTimeout(function(){
@@ -180,6 +180,27 @@
     		//$(this).addClass("background1");
 			$('#background').removeClass('background2').addClass('background1');
 		},2300);
+	};*/
+	
+	var mqsmall = "(min-device-width:320px)";
+    var mqbig   = "(min-device-width:960px)";
+    var imageresize = function () {
+        if(window.matchMedia(mqbig).matches) {
+            $('#background').each(function () {
+                $(this).css('background-color','black');
+				$(this).addClass('background2');
+		setTimeout(function(){
+    		//$(this).removeClass("background2");		
+    		//$(this).addClass("background1");
+			$('#background').removeClass('background2').addClass('background1');
+		},2250);
+            });
+        }
+        else if(window.matchMedia(mqsmall).matches) {
+            $('#background').each(function () {
+                $(this).addClass('background1');
+            });
+        }
 	};
 	// Burger Menu
 	var burgerMenu = function() {
@@ -347,7 +368,7 @@
 	$(function(){
 
 		pageTransition();
-		stopAnime();
+		imageresize();
 		fullHeight();
 		sliderMain();
 		sliderTestimony();
