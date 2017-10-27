@@ -60,6 +60,7 @@
 	  	});
 
 	};
+	
 
 	var offcanvasMenu = function() {
 
@@ -171,7 +172,15 @@
 			
 	};
 
-
+	var stopAnime = function(){
+		$('#background').css('background-color','black');
+		$('#background').addClass('background2');
+		setTimeout(function(){
+    		//$(this).removeClass("background2");		
+    		//$(this).addClass("background1");
+			$('#background').removeClass('background2').addClass('background1');
+		},2300);
+	};
 	// Burger Menu
 	var burgerMenu = function() {
 
@@ -205,7 +214,7 @@
 				}
 			} 
 
-		   $('#group-6-section-1 .flexslider .group-6-overlay').css({
+		   $('#group-6-section-1 .flexslider .group-6-overlay .group-6-overlay-mobile').css({
 				'opacity' : (0.5)+(scrlTop/2000)
 		   });
 
@@ -338,6 +347,7 @@
 	$(function(){
 
 		pageTransition();
+		stopAnime();
 		fullHeight();
 		sliderMain();
 		sliderTestimony();
