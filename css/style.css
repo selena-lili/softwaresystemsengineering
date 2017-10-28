@@ -400,7 +400,7 @@ p {
  * Flexslider
  */
 #group-6-section-1 {
-  min-height: 700px;
+  min-height: 400px;
   background: #000 url(../images/loader.gif) no-repeat center center;
 }
 #group-6-section-1 .flexslider {
@@ -423,12 +423,12 @@ p {
   font-family: "Roboto Slab", sans-serif;
   font-size: 50px;
   font-weight: 400;
-  color: #fff;
+  color: #f8f8f8;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
-  border: 7px solid #fff;
+  border: 7px solid #f8f8f8;
   padding: 30px 50px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
