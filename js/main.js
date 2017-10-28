@@ -16,14 +16,14 @@
 	    );
 	};
 
-	var fullHeight = function() {
+	/*var fullHeight = function() {
 		if ( !isiPad() && !isiPhone() ) {
 			$('.js-fullheight').css('height', $(window).height());
 			$(window).resize(function(){
 				$('.js-fullheight').css('height', $(window).height());
 			});
 		}
-	};
+	};*/
 
 	var sliderMain = function() {
 		
@@ -394,7 +394,7 @@
 
 		pageTransition();
 		imageresize();
-		fullHeight();
+		//fullHeight();
 		sliderMain();
 		sliderTestimony();
 		offcanvasMenu();
