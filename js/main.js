@@ -362,6 +362,31 @@
 
 
 	};
+	
+	var section = function()
+	{
+		$('#slide1').addClass('slide1');
+		$('#s1').click(function(){
+			$('.slide').fadeOut(1000);
+			$('#slide1').fadeIn(1000);
+		});
+		$('#s2').on('click',function(){
+			$('.slide').fadeOut(1000);
+			$('#slide2').fadeIn(1000);
+		});
+		$('#s3').on('click',function(){
+			$('.slide').fadeOut(1000);
+			$('#slide3').fadeIn(1000);
+		});
+		$('#s4').on('click',function(){
+			$('.slide').fadeOut(1000);
+			$('#slide4').fadeIn(1000);
+		});
+		$('#s5').on('click',function(){
+			$('.slide').fadeOut(1000);
+			$('#slide5').fadeIn(1000);
+		});
+	};
 
 
 	// Document on load.
@@ -381,7 +406,7 @@
 		clickMenu();
 		navigationSection();
 		goToTop();
-		
+		section();
 
 
 		// Animations
