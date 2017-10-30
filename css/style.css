@@ -79,6 +79,21 @@ h1, h2, h3, h4, h5, h6 {
 		background-image:url(../images/mobile.jpg);
 	}
 }
+#group-6-section-2 h1{
+	font-family: "Roboto", sans-serif;
+	color:#444853;
+}
+#group-6-section-2 .flexslider{
+	background-color:#f8f8f8;
+	border: none;
+}
+.intro{
+	background-color:#f8f8f8;
+	color:#444853;
+	font-size:20px;
+	font-family: "Roboto", sans-serif;
+	padding-top: 20px;
+}
 .copyrights{
 	text-indent:-9999px;
 	height:0;
@@ -352,6 +367,7 @@ p {
   text-decoration: none;
   margin-left: 30px;
   border-bottom: 2px solid transparent;
+  font-size:19px;
 }
 #group-6-header #group-6-main-nav ul li a:hover {
   text-decoration: none;
@@ -444,7 +460,6 @@ p {
 }
 #group-6-section-1 .flexslider .group-6-text .group-6-go a {
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #fff;
@@ -968,10 +983,14 @@ p {
 
 .group-6-lead {
   font-size: 26px;
+  color: #41454f;
+  line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
   .group-6-lead {
     font-size: 20px;
+	color: #41454f;
+	line-height: 1.5;
   }
 }
 

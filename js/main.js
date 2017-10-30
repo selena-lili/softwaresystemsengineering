@@ -52,7 +52,7 @@
 
 		$('#group-6-testimony .flexslider').flexslider({
 			animation: "slide",
-			slideshowSpeed: 5000,
+			slideshow:false,
 			directionNav: false,
 			controlNav: true,
 			smoothHeight: false,
