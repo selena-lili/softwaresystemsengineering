@@ -732,9 +732,6 @@ p {
   #group-6-section-4 .flexslider .slides li blockquote {
     padding: 0 20px;
   }
-  #group-6-section-4 .flexslider .slides li{
-    padding: 0 20px;
-  }
 }
 #group-6-testimony .flexslider .slides li blockquote p {
   font-size: 40px;
@@ -754,10 +751,6 @@ p {
     line-height: 1.5;
   }
   #group-6-section-4 .flexslider .slides li div p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  #group-6-section-4 .flexslider .slides li{
     font-size: 20px;
     line-height: 1.5;
   }
