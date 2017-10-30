@@ -240,15 +240,15 @@ p {
   box-shadow: none;
   border-color: #5b83eb;
 }
-.subarea a{
+.subarea li{
 	color:#444853;
 	padding-left: 20px;
 	cursor:pointer;
 }
-.subarea a:hover{
+.subarea li:hover{
 	color:#5b83eb;
 }
-.subarea a:active{
+.subarea li:active{
 	color:#5b83eb;
 }
 .subarea{
@@ -265,21 +265,21 @@ p {
 	font-size: 30px;
 }
 @media screen and (max-width: 768px) {
-  .subarea a{
+  .subarea li{
 	margin:0em;
 	padding:0em;
     font-size: 15px;
   }
 }
 @media screen and (max-width: 380px) {
-  .subarea a{
+  .subarea li{
 	margin:0em;
 	padding:0em;
     font-size: 13px;
   }
 }
 @media screen and (max-width: 338px) {
-  .subarea a{
+  .subarea li{
 	margin:0em;
 	padding:0em;
     font-size: 11px;
@@ -666,7 +666,18 @@ p {
   position: relative;
   width: 100%;
 }
+#group-6-section-4 {
+  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+}
 #group-6-testimony > .container {
+  position: relative;
+  z-index: 5;
+}
+#group-6-section-4 > .container {
   position: relative;
   z-index: 5;
 }
@@ -680,7 +691,21 @@ p {
   opacity: .7;
   background: #444853;
 }
+#group-6-section-4 > .group-6-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  opacity: .7;
+  background: #f8f8f8;
+}
 #group-6-testimony .flexslider {
+  border: transparent !important;
+  background: transparent !important;
+}
+#group-6-section-4 .flexslider {
   border: transparent !important;
   background: transparent !important;
 }
@@ -688,12 +713,23 @@ p {
   font-size: 40px;
   line-height: 1.5;
 }
+#group-6-section-4 .flexslider .slides li {
+  font-size: 40px;
+  line-height: 1.5;
+}
 #group-6-testimony .flexslider .slides li blockquote {
+  padding-left: 0;
+  border-left: none;
+}
+#group-6-section-4 .flexslider .slides li {
   padding-left: 0;
   border-left: none;
 }
 @media screen and (max-width: 768px) {
   #group-6-testimony .flexslider .slides li blockquote {
+    padding: 0 20px;
+  }
+  #group-6-section-4 .flexslider .slides li blockquote {
     padding: 0 20px;
   }
 }
@@ -703,8 +739,18 @@ p {
   font-family: "Roboto Slab", sans-serif;
   color: white !important;
 }
+#group-6-section-4 .flexslider .slides li div p {
+  font-size: 40px;
+  line-height: 1.5;
+  font-family: "Roboto Slab", sans-serif;
+  color: #444853 !important;
+}
 @media screen and (max-width: 768px) {
   #group-6-testimony .flexslider .slides li blockquote p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  #group-6-section-4 .flexslider .slides li div p {
     font-size: 20px;
     line-height: 1.5;
   }
@@ -717,14 +763,31 @@ p {
   font-style: normal;
   color: rgba(0, 0, 0, 0.7);
 }
+#group-6-section-4 .flexslider .slides li div p {
+  display: block;
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.7);
+}
 #group-6-testimony .flexslider .flex-control-paging {
+  position: relative;
+}
+#group-6-section-4 .flexslider .flex-control-paging {
   position: relative;
 }
 #group-6-testimony .flexslider .flex-control-paging.flex-control-nav {
   bottom: -70px;
 }
+#group-6-section-4 .flexslider .flex-control-paging.flex-control-nav {
+  bottom: -70px;
+}
 @media screen and (max-width: 768px) {
   #group-6-testimony .flexslider .flex-control-paging.flex-control-nav {
+    bottom: -60px;
+  }  
+  #group-6-section-4 .flexslider .flex-control-paging.flex-control-nav {
     bottom: -60px;
   }
 }
@@ -735,10 +798,26 @@ p {
   box-shadow: none;
   border: 2px solid transparent;
 }
+#group-6-section-4 .flexslider .flex-control-paging li a {
+  width: 14px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  border: 2px solid rgb(68, 72, 83);
+}
 #group-6-testimony .flexslider .flex-control-paging li a:active, #group-6-testimony .flexslider .flex-control-paging li a:focus {
   outline: none;
 }
+#group-6-section-4 .flexslider .flex-control-paging li a:active, #group-6-section-4 .flexslider .flex-control-paging li a:focus {
+  outline: none;
+}
 #group-6-testimony .flexslider .flex-control-paging li a.flex-active {
+  position: relative;
+  background: transparent;
+  box-shadow: none;
+  border: 2px solid #5b83eb;
+}
+#group-6-section-4 .flexslider .flex-control-paging li a.flex-active {
   position: relative;
   background: transparent;
   box-shadow: none;

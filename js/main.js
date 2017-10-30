@@ -16,14 +16,14 @@
 	    );
 	};
 
-	/*var fullHeight = function() {
+	var fullHeight = function() {
 		if ( !isiPad() && !isiPhone() ) {
 			$('.js-fullheight').css('height', $(window).height());
 			$(window).resize(function(){
 				$('.js-fullheight').css('height', $(window).height());
 			});
 		}
-	};*/
+	};
 
 	var sliderMain = function() {
 		
@@ -55,10 +55,62 @@
 			slideshowSpeed: 5000,
 			directionNav: false,
 			controlNav: true,
-			smoothHeight: true,
+			smoothHeight: false,
 			reverse: true
 	  	});
 
+	};
+	
+	var sliderSection4 = function() {
+		var getGridSize = function() {
+			return (window.innerWidth < 320) ? 1 :
+         		   (window.innerWidth < 600) ? 2 : 
+				   (window.innerWidth < 800) ? 3 :
+				   (window.innerWidth < 900) ? 4 : 5;
+
+		};
+		/*$('#group-6-section-4 .flexslider').flexslider({
+			slideshow: false,
+			directionNav: false,
+			animationLoop:false,
+			controlNav: false,
+			smoothHeight: false,
+			reverse: false,
+			keyboard: true,
+			touch:true,
+			multipleKeyboard:true
+	  	});*/
+		$('#nav-section4').flexslider({
+			animation:"slide",
+			itemWidth:210,
+			itemMargin:5,
+			asNavFor: '#content',
+			slideshow: false,
+			directionNav: false,
+			animationLoop:false,
+			controlNav: false,
+			smoothHeight: false,
+			reverse: false,
+			keyboard: true,
+			touch:true,
+			multipleKeyboard:true,
+			minItems: getGridSize(),
+			maxItems: getGridSize()
+		});
+		$('#content').flexslider({
+			animation:"slide",
+			sync:'#nav-section4',
+			slideshow: false,
+			directionNav: false,
+			animationLoop:false,
+			controlNav: false,
+			smoothHeight: false,
+			reverse: false,
+			keyboard: true,
+			touch:true,
+			multipleKeyboard:true
+		});
+		
 	};
 	
 
@@ -236,7 +288,7 @@
 			} 
 
 		   $('#group-6-section-1 .flexslider .group-6-overlay .group-6-overlay-mobile').css({
-				'opacity' : (0.5)+(scrlTop/2000)
+				'opacity' : (0.5)+(scrlTop/200)
 		   });
 
 		   if ( $('body').hasClass('offcanvas-visible') ) {
@@ -394,9 +446,10 @@
 
 		pageTransition();
 		imageresize();
-		//fullHeight();
+		fullHeight();
 		sliderMain();
 		sliderTestimony();
+		sliderSection4();
 		offcanvasMenu();
 		mainMenuSticky();
 		mobileMenuOutsideClick();
