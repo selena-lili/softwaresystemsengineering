@@ -62,6 +62,8 @@
 	};
 	
 	var sliderSection4 = function() {
+		var $window = $(window),
+      		flexslider = { vars:{} };
 		var getGridSize = function() {
 			return (window.innerWidth < 320) ? 1 :
          		   (window.innerWidth < 600) ? 2 : 
@@ -110,6 +112,13 @@
 			touch:true,
 			multipleKeyboard:true
 		});
+		
+		$window.resize(function() {
+    		var gridSize = getGridSize();
+ 
+    		flexslider.vars.minItems = gridSize;
+    		flexslider.vars.maxItems = gridSize;
+  		});
 		
 	};
 	
