@@ -83,7 +83,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Roboto", sans-serif;
 	color:#444853;
 }
+#group-6-section-6 h1{
+	padding-top: 3em;
+	font-family: "Roboto", sans-serif;
+	color:#444853;
+}
 #group-6-section-2 .flexslider{
+	background-color:#f8f8f8;
+	border: none;
+}
+#group-6-section-6 .flexslider{
 	background-color:#f8f8f8;
 	border: none;
 }
@@ -93,6 +102,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-size:20px;
 	font-family: "Roboto", sans-serif;
 	padding-top: 20px;
+}
+.highlight{
+	color:#2D3037;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size:20px;
 }
 .copyrights{
 	text-indent:-9999px;
