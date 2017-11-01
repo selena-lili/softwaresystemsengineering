@@ -79,16 +79,12 @@
 	
 	var sliderSection4 = function() {
 		$('#group-6-section-4 .flexslider').flexslider({
-			slideshow: false,
+			animation: "slide",
+			slideshow:false,
 			directionNav: true,
-			animationLoop:false,
 			controlNav: true,
 			smoothHeight: false,
-			reverse: false,
-			keyboard: true,
-			touch:false,
-			multipleKeyboard:true,
-			direction: "vertical"
+			reverse: false
 	  	});
 		/*$('#nav-section4').flexslider({
 			animation:"slide",
