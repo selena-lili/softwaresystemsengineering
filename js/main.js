@@ -68,10 +68,11 @@
 				animation:"slide",
 				slideshow:false,
 				directionNav:false,
-				cotrolNav: false,
+				cotrolNav: true,
 				smoothHeight:false,
 				reverse:false,
-				touch:true
+				touch:true,
+				multipleKeyboard:true
 			});
 		}
 	};
