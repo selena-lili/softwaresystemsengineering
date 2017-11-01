@@ -50,15 +50,30 @@
 
 	var sliderTestimony = function() {
 
-		$('#group-6-testimony .flexslider').flexslider({
+		$('#group-6-section-7 .flexslider').flexslider({
 			animation: "slide",
 			slideshow:false,
 			directionNav: false,
 			controlNav: true,
 			smoothHeight: false,
-			reverse: true
+			reverse: false
 	  	});
 
+	};
+	
+	var sliderSection3 = function(){
+		var isMobile = window.matchMedia("only screen and (max-width: 760px)");
+		if(isMobile.matches){
+			$('#group-6-section-3 .slides').flexslider({
+				animation:"slide",
+				slideshow:false,
+				directionNav:false,
+				cotrolNav: false,
+				smoothHeight:false,
+				reverse:false,
+				touch:true
+			});
+		}
 	};
 	
 	var sliderSection4 = function() {
@@ -458,6 +473,7 @@
 		fullHeight();
 		sliderMain();
 		sliderTestimony();
+		sliderSection3();
 		sliderSection4();
 		offcanvasMenu();
 		mainMenuSticky();

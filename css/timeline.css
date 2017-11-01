@@ -108,7 +108,7 @@ a {
   bottom: 0;
   z-index: 2;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-bottom: 15px;
   color: #fff;
   /* fix bug on Safari - text flickering while timeline translates */
