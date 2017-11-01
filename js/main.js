@@ -86,7 +86,7 @@
 			smoothHeight: false,
 			reverse: false,
 			keyboard: true,
-			touch:true,
+			touch:false,
 			multipleKeyboard:true,
 			direction: "vertical"
 	  	});
