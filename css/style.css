@@ -105,6 +105,20 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Roboto", sans-serif;
 	padding-top: 20px;
 }
+#group-6-section-5 .intro{
+	background-color:transparent;
+	color:#f8f8f8;
+}
+#group-6-section-5 .intro a{
+	font-size: 15px;
+}
+hr{
+	overflow: visible;
+}
+.reference{
+	color:#767676;
+	font-size: 15px;
+}
 .highlight{
 	color:#2D3037;
 	font-family: "Roboto", sans-serif;
@@ -628,7 +642,7 @@ p {
 #group-6-section-3 h2 {
   color: #fff;
 }
-#group-6-section-5 h2 {
+#group-6-section-5 h2,#group-6-section-5 .intro{
   color: #fff;
 }
 #group-6-section-3 .group-6-text {
