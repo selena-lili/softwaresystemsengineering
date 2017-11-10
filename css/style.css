@@ -105,11 +105,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Roboto", sans-serif;
 	padding-top: 20px;
 }
-#group-6-section-5 .intro{
-	background-color:transparent;
+.impact{
+	background-color:#444853;
 	color:#f8f8f8;
+	font-size:20px;
+	font-family: "Roboto", sans-serif;
+	padding-top: 20px;
 }
-#group-6-section-5 .intro a{
+#group-6-section-5 .impact a{
 	font-size: 15px;
 }
 hr{
