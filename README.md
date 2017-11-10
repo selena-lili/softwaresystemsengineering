@@ -1,2 +1,2 @@
 # Website
-this is a website template
+this is a website about Software Systems Engineering.
