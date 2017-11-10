@@ -198,16 +198,6 @@
 		});
 			
 	};
-
-/*	var stopAnime = function(){
-		$('#background').css('background-color','black');
-		$('#background').addClass('background2');
-		setTimeout(function(){
-    		//$(this).removeClass("background2");		
-    		//$(this).addClass("background1");
-			$('#background').removeClass('background2').addClass('background1');
-		},2300);
-	};*/
 	
 	var mqsmall = "(min-device-width:320px)";
     var mqbig   = "(min-device-width:960px)";
