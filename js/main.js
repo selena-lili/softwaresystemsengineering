@@ -284,10 +284,10 @@
 
 	// Page Nav
 	var clickMenu = function() {
-		var topVal = ( $(window).width() < 993 ) ? 0 : 58;
+		var topVal = ( $(window).width() < 769 ) ? 0 : 58;
 
 		$(window).resize(function(){
-			topVal = ( $(window).width() < 993 ) ? 0 : 58;		
+			topVal = ( $(window).width() < 769 ) ? 0 : 58;		
 		});
 
 		if ( $(this).attr('href') !== "#") {
