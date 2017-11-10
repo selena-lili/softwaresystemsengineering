@@ -79,7 +79,7 @@
 			slideshow:false,
 			directionNav: true,
 			controlNav: true,
-			smoothHeight: false,
+			smoothHeight: true,
 			reverse: false
 	  	});
 	};
