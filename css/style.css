@@ -23,7 +23,7 @@ body {
   background: #f7f7f7;
 }
 body.group-6-overflow {
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 ::-webkit-selection {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 15px;
 }
 hr{
-	overflow: visible;
+	overflow: hidden;
 }
 .reference{
 	color:#C1C1C1;
