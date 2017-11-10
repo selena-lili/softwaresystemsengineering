@@ -305,11 +305,16 @@ li {
 .cd-horizontal-timeline .events-content em::before {
   content: '- ';
 }
+.cd-horizontal-timeline .events-content cite{
+	color: #959595;
+	font-size: 1.2rem;
+	margin: 10px auto;
+}
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
   color: #959595;
 }
-.cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
+.cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p, .cd-horizontal-timeline .events-content cite {
   line-height: 1.6;
 }
 @media only screen and (min-width: 768px) {
@@ -321,6 +326,9 @@ li {
   }
   .cd-horizontal-timeline .events-content p {
     font-size: 1.8rem;
+  }
+  .cd-horizontal-timeline .events-content cite {
+	font-size: 1.6rem;	
   }
 }
 

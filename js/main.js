@@ -86,37 +86,6 @@
 			smoothHeight: false,
 			reverse: false
 	  	});
-		/*$('#nav-section4').flexslider({
-			animation:"slide",
-			itemWidth:210,
-			itemMargin:5,
-			asNavFor: '#content',
-			slideshow: false,
-			directionNav: false,
-			animationLoop:false,
-			controlNav: false,
-			smoothHeight: false,
-			reverse: false,
-			keyboard: true,
-			touch:true,
-			multipleKeyboard:true,
-			minItems: getGridSize(),
-			maxItems: getGridSize()
-		});
-		$('#content').flexslider({
-			animation:"slide",
-			sync:'#nav-section4',
-			slideshow: false,
-			directionNav: false,
-			animationLoop:false,
-			controlNav: false,
-			smoothHeight: false,
-			reverse: false,
-			keyboard: true,
-			touch:true,
-			multipleKeyboard:true
-		});*/
-		
 	};
 	
 
@@ -248,17 +217,10 @@
                 $(this).css('background-color','black');
 				$(this).addClass('background2');
 		setTimeout(function(){
-    		//$(this).removeClass("background2");		
-    		//$(this).addClass("background1");
 			$('#background').removeClass('background2').addClass('background1');
 		},2250);
             });
         }
-        /*else if(window.matchMedia(mqsmall).matches) {
-            $('#background').each(function () {
-                $(this).addClass('background3');
-            });
-        }*/
 	};
 	// Burger Menu
 	var burgerMenu = function() {
@@ -332,10 +294,10 @@
 
 	// Page Nav
 	var clickMenu = function() {
-		var topVal = ( $(window).width() < 769 ) ? 0 : 58;
+		var topVal = ( $(window).width() < 993 ) ? 0 : 58;
 
 		$(window).resize(function(){
-			topVal = ( $(window).width() < 769 ) ? 0 : 58;		
+			topVal = ( $(window).width() < 993 ) ? 0 : 58;		
 		});
 
 		if ( $(this).attr('href') !== "#") {

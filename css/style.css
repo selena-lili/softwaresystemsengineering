@@ -11,7 +11,9 @@ em{
 html {
   background: #f7f7f7;
 }
-
+.logo{
+	height: 30px;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -341,7 +343,7 @@ p {
   line-height: 1.2;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #group-6-header #group-6-logo {
     top: -2px;
   }
@@ -351,7 +353,7 @@ p {
   font-size: 30px;
   color: #fff;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: =992px) {
   #group-6-header #group-6-logo a {
     color: #000;
   }
@@ -362,7 +364,7 @@ p {
 #group-6-header #group-6-main-nav {
   float: right;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #group-6-header #group-6-main-nav {
     display: none;
   }
@@ -1135,7 +1137,7 @@ p {
     float: none;
   }
 }
-/* Arrow Animations */
+/* Array Animations */
 @-webkit-keyframes ani-mouse {
   0% {
     opacity: 1;
@@ -1190,5 +1192,3 @@ p {
     top: 29%;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
