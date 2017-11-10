@@ -69,7 +69,6 @@
 				cotrolNav: true,
 				smoothHeight:false,
 				reverse:false,
-				touch:true,
 				multipleKeyboard:true
 			});
 	};
